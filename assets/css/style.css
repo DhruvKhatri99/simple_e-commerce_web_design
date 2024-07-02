@@ -1,0 +1,369 @@
+/* Global css */
+body {
+  background-color: rgba(6, 240, 255, 0.3);
+}
+
+/*************
+* homepage css *
+**************/
+#home {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+}
+
+.navbar > .container-fluid,
+.navbar-collapse {
+  align-items: unset;
+}
+
+.navbar-brand {
+  font-family: inter;
+  font-weight: 800;
+  font-size: 1.125rem;
+  color: #d82cd1;
+  line-height: 1.3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("../fonts/gilroy-medium.ttf") format("truetype");
+}
+
+nav a {
+  font-family: gilroy-medium !important;
+  margin-top: 1rem;
+  font-size: 1.13rem !important;
+}
+
+.nav-svg {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 80000;
+}
+
+.btn-pink {
+  background-color: #d82cd1;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-pink:hover,
+.btn-prc:hover {
+  color: #313131 !important;
+  background-image: linear-gradient(to right, #ff7eb9, #ff5287);
+}
+.nav-item a:hover {
+  color: #d82cd1;
+}
+
+.homefont {
+  font-family: inter;
+  font-weight: 800;
+  font-size: 4.9rem;
+  color: #313131;
+  line-height: 5rem;
+}
+@media only screen and (max-width: 992px) {
+  .homefont {
+    font-family: inter;
+    font-weight: 800;
+    font-size: 3.9rem;
+    color: #313131;
+    line-height: 4rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .homefont {
+    font-family: inter;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #313131;
+    line-height: 3rem;
+  }
+}
+.homefont2 {
+  font-family: gilroy-medium;
+  font-size: 1.13rem !important;
+}
+
+.btn-watch {
+  font-family: gilroy-medium;
+  font-size: 1.13rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #d82cd1;
+  color: white;
+}
+
+/*************
+* aboutus page css *
+**************/
+
+/* svg position */
+.svg-pos {
+  position: absolute;
+  top: -950%;
+  left: 0%;
+}
+
+.abt-font {
+  font-family: gilroy-medium;
+  font-size: 1.13rem;
+  line-height: 1.318rem;
+  color: #514040;
+  text-shadow: 0 4 4 rgba(0, 0, 0, 0.25);
+}
+
+.abt-font-lg {
+  font-family: gilroy-medium;
+  font-size: 2.85rem;
+  line-height: 3.296rem;
+  color: #313131;
+}
+
+@media only screen and (max-width: 310px) {
+  .abt-font-lg,
+  .homefont,
+  .card-title,.card-price {
+    word-break: break-all;
+  }
+}
+
+.mt-8 {
+  margin-top: 8.5rem;
+}
+
+@font-face {
+  font-family: "gilroy-semibold";
+  src: url("../fonts/gilroy-semibold.ttf") format("truetype");
+}
+
+.card {
+  background-color: transparent;
+  border-color: white;
+}
+
+.card:hover {
+  background-color: white;
+  transform: scale(1.01);
+  transition: transform 0.3s;
+}
+
+.card:hover .card-link {
+  color: #49ad09;
+}
+
+.card-title {
+  font-family: gilroy-semibold;
+  font-size: 1.38rem;
+}
+
+.card-text {
+  font-family: gilroy-medium;
+  font-size: 1.125rem;
+  line-height: 1.664rem;
+  color: #514040;
+}
+
+.card-link {
+  font-family: gilroy-medium;
+  font-size: 1rem;
+  color: #313131;
+}
+
+a:hover,
+button:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s;
+}
+
+/* portfolio cards css */
+
+.card-text-title {
+  font-family: gilroy-medium;
+  font-size: 1.75rem;
+  color: black;
+}
+
+.card-text-link {
+  font-family: gilroy-medium;
+  font-size: 1.125rem;
+  color: #49ad09;
+  text-decoration: none;
+}
+
+.border-remove {
+  border: none !important;
+}
+
+#portfolio .card:hover {
+  background-color: transparent;
+}
+
+/*************
+* testimonial page css *
+**************/
+.p-8 {
+  padding: 7rem 8rem 1rem 8rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .p-8 {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+.bg-box {
+  background-color: #f2f2f2;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  width: 60%;
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-inner {
+    width: auto;
+  }
+}
+
+.carousel-card {
+  background-color: white;
+}
+
+.carousel-card-heading {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.059rem;
+  color: #32435c;
+}
+
+.carousel-card-text {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #6a635b;
+}
+
+.carousel-card:hover {
+  transform: none;
+}
+
+.capsule {
+  width: 7rem;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  background-color: white;
+  display: flex;
+}
+.cap-btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: white;
+  fill: #313131;
+  border-style: none;
+}
+
+.cap-btn:hover {
+  background-color: #313131;
+  fill: white;
+}
+.svg-arrow {
+  width: 2.2rem;
+  height: 0.9rem;
+}
+
+/*************
+* contact page css *
+**************/
+
+.card-head {
+  font-family: gilroy-medium;
+  font-size: 1.875rem;
+  line-height: 2.198rem;
+  text-align: center;
+  color: #000;
+}
+
+.card-price {
+  font-family: gilroy-semibold;
+  font-size: 3.75rem;
+  line-height: 4.394rem;
+  text-align: center;
+  color: #313131;
+}
+
+.card-feature {
+  font-family: gilroy-medium;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #514040;
+}
+
+.btn-prc {
+  background-color: transparent;
+  border: 1px solid #313131;
+  border-radius: 5px;
+}
+
+.card:hover .btn-prc {
+  background-color: #d82cd1;
+  color: white;
+  border: #d82cd1;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+/*************
+* footer css *
+**************/
+
+.foot-text {
+  font-family: gilroy-medium;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #313131;
+}
+
+.foot-head {
+  font-family: gilroy-semibold;
+  font-size: 1.25rem;
+  line-height: 1.465rem;
+  color: #1c1c1d;
+}
+
+.link-container a {
+  font-family: gilroy-medium;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #313131;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.svg-go {
+  top: 15%;
+  right: 5%;
+}
+
+hr {
+  margin: 1rem 0;
+  color: #ededed;
+  opacity: 1;
+}
